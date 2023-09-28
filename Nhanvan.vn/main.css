@@ -1,0 +1,161 @@
+*{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    font-family: 'Quicksand', sans-serif ;
+}
+.clear{
+    clear:both
+}
+body{
+    line-height: 1.4;
+    font-size: 13px;
+    font-weight: 400;
+    color: #000000;
+    overflow-x: hidden;
+    background: #f5f5f5;
+    /* position: initial !important; */
+}
+
+.header{
+    max-height: 200px;
+    width: 100%;
+    color:#ffffff;
+    background-color: #0272bc ;
+    width:100%;
+    height: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    /* box-align: center; */
+}
+.header-top .top-link li {
+        display: inline-block;
+        /* padding: 0 10px; */
+        font-size: 13px;
+        /* padding: 80px 0; */
+}
+.header-top .top-link li {
+    display: inline-block;
+    padding: 15px 10px;
+    font-size: 13px;
+    color: #ffffff
+}
+
+.header-mid{
+    width: 100%;
+    height: 80px;
+    padding: 30px 0;
+    display: flex;
+}
+.logo{
+     max-width: 300px;
+    max-height: 250px;
+}
+.logo img{
+   width: 100%;
+   height: 100%;
+   padding:0 15px;
+}
+.text{
+   width:660px;
+   height: 65px;
+    border-radius: 3px;
+    border-color: #ff5800;
+
+}
+.search{
+    width: 660px;
+    height: 40px;
+}
+.inputSearch{
+    width: 80%;
+    height: 100%;
+    /* border: none; */
+    border-color: #ff5800;
+    /* border-top: #ff5800; */
+    border-radius: 3px;
+    background-color: #ffffff;
+    outline: none;
+}
+.searchsubmit{
+width: 10%;
+height: 112%;
+margin: -7px;
+border-color: #ff5800;
+background-color: #ff5800;
+}
+.header-mid .inputSearch{
+    margin-bottom: 5px;
+}
+.keyword-search { 
+    content: '';
+    position: absolute;
+    width: 630px;
+    height: 20px;
+    padding: 10px 0px 0px 0px;
+
+}
+.boxbook {
+     list-style-type: none; 
+    display:inline;
+    
+    
+}
+.boxbook a{
+    padding: 0px 20px 0px 0px;
+    color:#0270bc;
+    text-decoration: none;
+}
+.boxbook a:hover{
+    color:red;
+}
+.keyword-search li::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 10px;
+    background: #bbb;
+    right: 16;
+    top: 15px;
+    margin-left: -10px;
+}
+.header-bottom{
+    width:100%;
+    height:51px;
+    border-bottom: 2px solid #0272bc;
+}
+
+/* Dropdown Button */
+.drop{
+background-color: #0270bc;
+color:#ffffff;
+
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width:270px;
+    height:100%;
+    padding:0 10px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 160px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
